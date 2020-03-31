@@ -3,9 +3,6 @@ import { Body } from '../pageData/yellowSub/Body'
 import { quote } from '../pageData/yellowSub/quote'
 import { table } from '../pageData/yellowSub/table'
 
-import { buyButton } from '../components/buyButton'
-import { readButton } from '../components/readButton'
-
 import { Page } from '../template/Page'
 export const YellowSub = () => {
     return (
