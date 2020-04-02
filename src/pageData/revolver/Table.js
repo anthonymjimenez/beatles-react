@@ -5,14 +5,12 @@ export const Table = () => {
         <>
         <div>
             <table >
-			 			 <thead >
-			 				 <th > Revolver</th>
-			 				 </thead>
+			 			 
 			 					<tbody>
 			 				 <tr>
-			 					 <td>Song # </td>
-			 					 <td>Run Time</td>
-			 					 <td>Title </td>
+			 					 <th>Song # </th>
+			 					 <th>Run Time</th>
+			 					 <th>Title </th>
 			 				 </tr>
 			 				 <tr>
 			 					 <td>1</td>
