@@ -1,18 +1,14 @@
 html{
   max-width: 900px;
   margin:auto;
-  min-width: 400px;
-  padding: 50px;
+  min-width: 100px;
+  padding: 0px;
+  text-align: center;
+  color:black;
 
 }
+
 table{
   display: flex;
   margin: auto;
-}
-
-.page
-{
-    color:black;
-    
-  text-align: center;
 }

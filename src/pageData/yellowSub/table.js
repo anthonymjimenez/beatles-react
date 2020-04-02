@@ -4,14 +4,11 @@ export const table = () => {
     return (
         <>
 			<table>
-					<thead>
-								<th> Yellow Submarine</th>
-								</thead>
 								 <tbody>
 								<tr class ="default-Head2" id="yellowTHead">
-									<td>Song # </td>
-									<td>Run Time</td>
-									<td>Title </td>
+									<th>Song # </th>
+									<th>Run Time</th>
+									<th>Title </th>
 								</tr>
 								<tr>
 									<td>1</td>

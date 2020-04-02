@@ -1,52 +1,42 @@
 import React from "react";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from 'react-router-dom'
-export const navBar = () => {
+import CustomBar from "../style/CustomBar"
+import { YellowSub } from '../../pages/YellowSub'
+import { AbbeyRoad } from '../../pages/AbbeyRoad';
+import { Revolver } from '../../pages/Revolver';
+import CustomLink from "../style/CustomLink";
+import { Link } from 'react-router-dom'
+
+export default function NavBar() {
     return (
-        <div>
-            om "react-router-dom";
-
-  return (
-    <Router>
       <div>
-        <nav>
-          <ul>
+      <CustomBar>
+          <CustomLink>
+          <Link to = '/'>
             <li>
-              <Link to="/">Home</Link>
+              Home
             </li>
+          </Link>
+          <Link to = '/revolver'>
             <li>
-              <Link to="/revolver">Revovler</Link>
+              Revolver
             </li>
-            <li>
-              <Link to="/users">Users</Link>
-            </li>
-          </ul>
+            </Link>
+            <Link to = '/yellowsub'>
           <li>
-              <Link to="/users">Users</Link>
+              Yellow Submarine
             </li>
-        </nav>
+            </Link>
+            <Link to = '/abbeyroad'>
+          <li>
+              Abbey Toad
+            </li>
+            </Link>
+            </CustomLink>
 
-        {/* A <Switch> looks through its children <Route>s and
-            renders the first one that matches the current URL. */}
-        <Switch>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/users">
-            <Users />
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>
-        </Switch>
+            </CustomBar>
+      
       </div>
-    </Router>
-  );
-}
-        </div>
+
     )
 }
+
