@@ -5,9 +5,7 @@ export const Table = () => {
         <>
         <div>
             <table >
-							<thead >
-								<th></th>
-								</thead>
+					
 								 <tbody>
 								<tr >
 									<th>Song # </th>

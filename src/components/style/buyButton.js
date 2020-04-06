@@ -3,7 +3,7 @@ import styled from '@emotion/styled'
 const BuyButton = styled.button`
   color: black;
   display:flex;
-  margin-top:30px;
+  
   
   margin-left: auto;
   margin-right: auto;

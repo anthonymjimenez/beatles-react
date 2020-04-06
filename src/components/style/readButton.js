@@ -2,7 +2,7 @@ import styled from '@emotion/styled'
 
 const ReadButton = styled.button`
   color: black;
-  margin-top:30px;
+  
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;

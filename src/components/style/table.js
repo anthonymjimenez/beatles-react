@@ -2,8 +2,10 @@ import styled from '@emotion/styled'
 
 const Table = styled.table`
     display: flex;
-    justify-content:center;
-    margin-top: 50px;
+    justify-content: center;
+    
+    
+    
     margin-bottom: 50px;
     border-collapse: collapse;
    
