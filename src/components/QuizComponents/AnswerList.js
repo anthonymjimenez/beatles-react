@@ -5,7 +5,14 @@ export const AnswerList = ({ Answers , index, result, setIndex }) => {
     var currentAnswers = Answers[index]
     return (
         <>
-        {currentAnswers.map((answer) => <Answer index={index} text={answer.text} correct ={answer.correct} setIndex={setIndex} result={result}/>)}
+        {currentAnswers.map((answer) =>
+         <Answer index={index} 
+                text={answer.text} 
+                correct ={answer.correct} 
+                setIndex={setIndex} 
+                result={result}
+                    
+                />)}
        </> 
     )
 }
