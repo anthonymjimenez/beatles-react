@@ -8,11 +8,6 @@ export default function NavBar() {
       <div>
       <CustomBar>
           <CustomLink>
-          <Link to = '/'>
-            <li>
-              Home
-            </li>
-          </Link>
           <Link to = '/revolver'>
             <li>
               Revolver
@@ -23,12 +18,23 @@ export default function NavBar() {
               Yellow Submarine
             </li>
             </Link>
+            <Link to = '/'>
+            <li>
+              Home
+            </li>
+          </Link>
             <Link to = '/abbeyroad'>
           <li>
               Abbey Toad
             </li>
             </Link>
+            <Link to = '/quiz'>
+            <li>
+              Beatles Quiz
+            </li>
+            </Link>
             </CustomLink>
+
 
             </CustomBar>
       

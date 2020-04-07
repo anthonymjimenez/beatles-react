@@ -14,7 +14,8 @@ export const Quiz = () => {
 
     const questionArray = Questions.map((question) => question.question)
     const answers = Questions.map((answer) => answer.answers)
-
+    console.log(questionArray)
+        console.log(answers)
 
     // <Score = {score}/>
     // Status Bar/>
@@ -22,7 +23,7 @@ export const Quiz = () => {
     
         <div>
         {(gameStarted) ? ((result) ? <p>You were right</p>: <p>You were wrong</p>) : <p>Enjoy the quiz</p>}
-        <Question Questions={questionArray} index = {index}></Question>
+        <Question Questions={"I am a react prop"} index = {index}></Question>
         <AnswerList Answers={answers} index={index} setIndex={setIndex} result={setResult}></AnswerList>
 
         </div>

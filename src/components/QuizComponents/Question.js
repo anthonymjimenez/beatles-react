@@ -1,9 +1,9 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 export const Question = ({ Questions, index }) => {
     return (
         <div>
-            <p>{Questions[index]}</p>
+            <p>{Questions}</p>
         </div>
     )
 }
