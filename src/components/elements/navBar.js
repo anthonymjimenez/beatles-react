@@ -1,8 +1,5 @@
 import React from "react";
 import CustomBar from "../style/CustomBar"
-import { YellowSub } from '../../pages/YellowSub'
-import { AbbeyRoad } from '../../pages/AbbeyRoad';
-import { Revolver } from '../../pages/Revolver';
 import CustomLink from "../style/CustomLink";
 import { Link } from 'react-router-dom'
 
