@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Question = ({ Questions, index }) => {
+export const Question = ({ Questions }) => {
     return (
         <div>
             <p>{Questions}</p>
