@@ -11,7 +11,6 @@ export const Answer = ({ text, correct, result, setIndex, index}) => {
     return (
         <button onClick={answerResult}>
             {text}
-            {correct}
         </button>
     
     )

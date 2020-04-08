@@ -9,9 +9,6 @@ import { ScoreBoard } from '../components/QuizComponents/ScoreBoard';
 export const Quiz = () => {
     var [ index, setIndex ] = useState(0)
     var [ result, setResult ] = useState(null)
-    var gameStarted = null;
-
-    if(result === true || result === false ) {gameStarted = true}
     const questionArray = Questions.map((question) => question.question)
     const answers = Questions.map((answer) => answer.answers)
     

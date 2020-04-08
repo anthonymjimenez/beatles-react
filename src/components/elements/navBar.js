@@ -1,13 +1,11 @@
 import React from "react";
-import CustomBar from "../style/CustomBar"
-import CustomLink from "../style/CustomLink";
 import { Link } from 'react-router-dom'
+import './navBar.css'
 
 export default function NavBar() {
     return (
-      <div>
-      <CustomBar>
-          <CustomLink>
+      
+        <div className="navBar">
           <Link to = '/revolver'>
             <li>
               Revolver
@@ -33,11 +31,7 @@ export default function NavBar() {
               Beatles Quiz
             </li>
             </Link>
-            </CustomLink>
-
-
-            </CustomBar>
-      
+            
       </div>
 
     )

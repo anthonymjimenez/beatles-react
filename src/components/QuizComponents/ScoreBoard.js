@@ -17,6 +17,7 @@ export const ScoreBoard = ({ result, index }) => {
     }, [index]);
 
     const score = right / total
+    //NaN == false
     return (
         <>
         <div>{right}</div>

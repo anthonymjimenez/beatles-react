@@ -1,0 +1,15 @@
+
+.navBar{
+    width: 75%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 5vh;
+    margin-top: 0;
+    padding-top: 0;
+    list-style-type: none;
+    text-decoration: none;
+    
+  }
+ 

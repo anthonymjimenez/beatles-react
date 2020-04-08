@@ -10,7 +10,6 @@ export const AnswerList = ({ Answers , index, result, setIndex }) => {
                 correct ={answer.correct} 
                 setIndex={setIndex} 
                 result={result}
-                    
                 />)}
        </> 
     )

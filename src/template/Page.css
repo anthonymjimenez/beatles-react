@@ -1,0 +1,76 @@
+.layout{
+    display: grid;
+    grid-template-areas: 
+    "albumTitle albumTitle"
+    "quote tableT"
+    "bodyText tableT"
+    "readBtn buyBtn";
+}
+@media(max-width: 800px){
+    .layout{
+        display:grid;
+        grid-template-areas: 
+        "albumTitle"
+        "quote"
+        "bodyText"
+        "readBtn"
+        "tableT"
+        "buyBtn"
+        ;
+    }
+}
+
+.Body {
+    display: flex;
+    text-align: start; 
+    grid-area: bodyText;
+}
+.quote{
+    font-family: cursive;
+    grid-area: quote;
+}
+.title{
+    grid-area: albumTitle;
+}
+.readBtn{
+    grid-area: readBtn;
+}
+.buyBtn{
+    grid-area: buyBtn;
+}
+.table{
+    grid-area: tableT;
+}
+
+button{
+  color: black;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 1px 1px 2px grey;
+  padding: 6px;
+}
+table {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    border-collapse: collapse;
+}
+tr, td, th{
+    background-color:grey;
+    padding-left:15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 5px;   
+    
+}
+th{
+    font-weight:bold;
+}
+/*
+<h1
+           
+           
+/* columns={"1fr 1fr "}
+            rows={"200px 50px  "} 
+            areas={[]}*/

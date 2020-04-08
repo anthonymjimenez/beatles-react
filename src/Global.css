@@ -1,14 +1,10 @@
 html{
-  max-width: 900px;
+  max-width: 1000px;
   margin:auto;
-  min-width: 100px;
-  padding: 0px;
+  min-width: 200px;
+  padding-left: 50px;
+  padding-right:50px;
   text-align: center;
   color:black;
-
 }
 
-table{
-  display: flex;
-  margin: auto;
-}
