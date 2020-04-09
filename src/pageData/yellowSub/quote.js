@@ -3,8 +3,8 @@ import React from 'react'
 export const quote = () => {
     return (
         <div>
-            we sailed beneath the waves.. in our yellow submarine
-            -Yellow Submarine
+           <p> we sailed beneath the waves.. in our yellow submarine</p>
+           <p> -Yellow Submarine</p>
         </div>
     )
 }

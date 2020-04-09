@@ -3,8 +3,9 @@ import React from 'react'
 export const Quote = () => {
     return (
         <div>
-            speaking words of wisdow.. let it be
-            -From () album
+            <p>
+            speaking words of wisdow.. let it be </p>
+            <p> -From () album</p>
         </div>
     )
 }

@@ -1,14 +1,18 @@
+
 .layout{
+
     display: grid;
     grid-template-areas: 
     "albumTitle albumTitle"
     "quote tableT"
     "bodyText tableT"
     "readBtn buyBtn";
+    grid-column-gap: 60px;
 }
-@media(max-width: 800px){
+@media(max-width: 920px){
     .layout{
         display:grid;
+        grid-row-gap: 15px ;
         grid-template-areas: 
         "albumTitle"
         "quote"
@@ -17,20 +21,27 @@
         "tableT"
         "buyBtn"
         ;
+        
     }
+    
 }
 
 .Body {
     display: flex;
     text-align: start; 
     grid-area: bodyText;
+    margin-top: 0;
+    align-items: flex-start;
 }
 .quote{
     font-family: cursive;
     grid-area: quote;
+    margin:0;
+    font-size: 25px;
 }
 .title{
     grid-area: albumTitle;
+    padding: 30px;
 }
 .readBtn{
     grid-area: readBtn;
@@ -44,16 +55,17 @@
 
 button{
   color: black;
-  margin-bottom: 30px;
+  margin-top: 15px;
+  margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
   box-shadow: 1px 1px 2px grey;
   padding: 6px;
+
 }
 table {
     display: flex;
     justify-content: center;
-    margin-bottom: 50px;
     border-collapse: collapse;
 }
 tr, td, th{
@@ -67,10 +79,3 @@ tr, td, th{
 th{
     font-weight:bold;
 }
-/*
-<h1
-           
-           
-/* columns={"1fr 1fr "}
-            rows={"200px 50px  "} 
-            areas={[]}*/

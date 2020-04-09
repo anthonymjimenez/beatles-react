@@ -11,5 +11,19 @@
     list-style-type: none;
     text-decoration: none;
     
+    
+  }
+
+  a{
+      text-decoration: none;
+ }
+
+  @media(max-width: 920px){
+        
+        .navBar{
+          width: 100%;
+          justify-content: space-evenly;
+          
+      }
   }
  
