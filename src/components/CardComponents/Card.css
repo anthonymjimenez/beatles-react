@@ -1,0 +1,39 @@
+html .card {
+    width: 500px;
+    height: 500px;
+    background-repeat: no-repeat;
+}
+
+.george_card {
+    background-image: url('../../Assets/Images/george_beatle.png');
+
+}
+.george_cardB {
+    background-image: url('../../Assets/Images/george_beatle.png');
+}
+.john_card {
+    background-image: url('../../Assets/Images/george_beatle.png');
+}
+
+.john_cardB {
+    background-image: url('../../Assets/Images/george_beatle.png');
+
+}
+.paul_card { 
+    background-image: url('../../Assets/Images/george_beatle.png');
+
+}
+
+.paul_cardB {
+    background-image: url('../../Assets/Images/george_beatle.png');
+
+}
+.ringo_card {
+    background-image: url('../../Assets/Images/george_beatle.png');
+
+}
+
+.ringo_cardB {
+    background-image: url('../../Assets/Images/george_beatle.png');
+
+}

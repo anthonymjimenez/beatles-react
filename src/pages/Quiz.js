@@ -21,7 +21,7 @@ export const Quiz = () => {
         <div>
         <ScoreBoard result={result} index={index} />
         <Question Questions={questionArray[index]}></Question>
-        <AnswerList Answers={answers[index]} index={index} setIndex={setIndex} result={setResult}></AnswerList>
+        <AnswerList Answers={answers[index]} index={index} result={setResult} setIndex={setIndex}></AnswerList>
 
         </div>
     )

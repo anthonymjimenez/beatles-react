@@ -7,6 +7,9 @@ export const ScoreBoard = ({ result, index }) => {
     useEffect(() => {
         if(result === true ) { 
             setRight(right + 1)
+             // why not use Index to indicate total answers
+
+             // wouldn't mutate global context, already prop drilling index 
             setTotal(total + 1)
 
         }
