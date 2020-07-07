@@ -1,31 +1,20 @@
-import React,{useState} from 'react'
-import "./Card.css"
-export const Card = ({ classProp, setIDA, setIDB }) => {
-    
-    var [flip, setFlip] = useState(false)
-    var [done, setDone] = useState(false)
-    var [turn, setTurns] = useState(0) 
-   
-    
+import React, { useContext } from "react";
+import { CardContext } from "../../pageData/cardMatch/CardContext";
+//   key = {id.next()}
 
-    function onClick() { // invoked on card click 
-        if(turn === 0 || turn === 1) {
-            setFlip(true)
-            setTurns(++turn)
-            (turn === 0) ? setIDA(classProp) : setIDB(classProp)
-        }
-    } 
-    
-    //useEffect dependices -> match -> flip; 
-    // some stuff that happens involving flip 
+export const Card = ({ card }) => {
+  const { flipCard } = useContext(CardContext);
 
+  var classNameString = "card " + card.name;
 
-    var classNameString = "card " + classProp
-
-    return (
-
-        <div className = {classNameString}>
-       
-        </div>
-    )
-}
+  return (
+    <>
+      {card.flipped ? <p> Flipped </p> : <p>Not Flipped</p>}
+      {card.matched ? <p> Matched</p> : <p>Not matched</p>}
+      {card.name}
+      <button onClick={() => flipCard(card.flipID, card.name)}>
+        <div className={classNameString} />
+      </button>
+    </>
+  );
+};
